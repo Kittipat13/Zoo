@@ -9,7 +9,7 @@ public class Zoo {
         zooAnimals.add(new Penguin("Pie"));
         zooAnimals.add(new Dolphin("Donuts"));
 
-        // พฤติกรรมร่วม (เสียงร้อง)
+        // เสียงร้อง
         System.out.println("=== Animal Sounds ===");
         for (Animal animal : zooAnimals) {
             System.out.println(animal.getName() + " says: " + animal.makeSound());
